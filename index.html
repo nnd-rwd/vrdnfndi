@@ -44,3 +44,13 @@ Aku tau dafa dari pas dia nungguin kamu lama di depan kamarmu. waktu itu kita ga
     </div>
 </body>
 </html>
+<button onclick="playAudio()">Putar Musik</button>
+<audio id="myaudio" loop>
+    <source src="lagumu.mp3" type="audio/mp3">
+</audio>
+
+<script>
+    function playAudio() {
+        document.getElementById('myaudio').play();
+    }
+</script>
